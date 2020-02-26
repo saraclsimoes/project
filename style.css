@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+h2 {
+  padding: 20px;
+  font-style: italic;
+}
+form {
+  padding: 10 auto;
+}
+.searchbox {
+  margin: 20px auto 20px auto;
+  color: rgb(0, 106, 228);
+}
+.placeandtime {
+  margin: 10px auto;
+}
+.weatherstatus {
+  padding-top: 20px;
+  text-align: center;
+}
+.temperature {
+  font-size: 48px;
+}
+.weatheremoji {
+  font-size: 48px;
+}
+.quote {
+  text-align: center;
+}
+.next {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 500px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Weather App</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="searchbox">
+          <form>
+            <input
+              type="search"
+              placeholder="Enter a city"
+              autocomplete="off"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="currentlocation">Lisbon</div>
+          <div class="date">Monday, 3 February 2020, 19:54</div>
+          <div class="weatherstatus">
+            <div class="row">
+              <div class="col-6">
+                <div class="temperature">16ºC</div>
+                <p>Max | Min</p>
+                <p>22ºC | 8ºC</p>
+              </div>
+              <div class="col-6">
+                <div class="weatheremoji">☀</div>
+                <p>Precipitation: 0%</p>
+                <p>Wind Speed: 7.4km/h</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="quote">
+            <h1>Quote of the Day</h1>
+            <h2>"Dreams are like feathers, if you have enough you can fly"</h2>
+            <h3>- Unknown</h3>
+          </div>
+        </div>
+      </div>
+      <div class="next">
+        <div class="row">
+          <div class="col">Tue</div>
+          <div class="col">Wed</div>
+          <div class="col">Thu</div>
+          <div class="col">Fri</div>
+          <div class="col">Sat</div>
+        </div>
+        <div class="row">
+          <div class="col">🌥</div>
+          <div class="col">☀</div>
+          <div class="col">🌥</div>
+          <div class="col">🌥</div>
+          <div class="col">🌧</div>
+        </div>
+        <div class="row">
+          <div class="col">20 | 9ºC</div>
+          <div class="col">19 | 10ºC</div>
+          <div class="col">17 | 9ºC</div>
+          <div class="col">17 | 10ºC</div>
+          <div class="col">16 | 9ºC</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
